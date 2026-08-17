@@ -19,20 +19,12 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-stone-800">
           {/* Brand & Address Column */}
           <div className="lg:col-span-4 space-y-4">
-            <div className="flex items-center gap-3">
-              <img
-                src="/logo.jpg"
-                alt="Ddecor Curtain Shop Decor India Logo"
-                className="h-14 sm:h-16 w-auto object-contain bg-white p-1 border border-stone-700 shadow-2xs"
-                referrerPolicy="no-referrer"
-              />
-              <div className="flex flex-col">
-                <div className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-white uppercase">
-                  Ddecor <span className="font-light italic text-[#8B735B]">India</span>
-                </div>
-                <div className="text-[10px] tracking-[0.22em] text-[#8B735B] uppercase font-semibold mt-1">
-                  Curtain &amp; Decor Studio • Sector 84
-                </div>
+            <div className="flex flex-col">
+              <div className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-white uppercase">
+                D'DECOR <span className="font-light italic text-[#8B735B]">India</span>
+              </div>
+              <div className="text-[10px] tracking-[0.24em] text-[#8B735B] uppercase font-semibold mt-1.5">
+                Curtain &amp; Decor Studio • Sector 84
               </div>
             </div>
 

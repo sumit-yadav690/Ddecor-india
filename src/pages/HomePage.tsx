@@ -68,20 +68,12 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-center">
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6">
-              <div className="flex items-center gap-3">
-                <img
-                  src="/logo.jpg"
-                  alt="Ddecor Curtain Shop Decor India Official Logo"
-                  className="h-16 w-auto object-contain bg-white p-1 border border-[#E5E1DA] shadow-2xs"
-                  referrerPolicy="no-referrer"
-                />
-                <div>
-                  <div className="flex items-center space-x-2 text-[10px] sm:text-[11px] font-bold tracking-[0.2em] text-[#8B735B] uppercase">
-                    <div className="w-6 h-[1px] bg-[#8B735B]"></div>
-                    <span>OFFICIAL DECOR STUDIO IN GURUGRAM</span>
-                  </div>
-                  <div className="text-xs text-stone-500 font-serif italic">Curtains • Window Blinds • Luxury Wallpaper</div>
+              <div>
+                <div className="flex items-center space-x-2 text-[11px] sm:text-xs font-bold tracking-[0.24em] text-[#8B735B] uppercase">
+                  <div className="w-6 h-[1px] bg-[#8B735B]"></div>
+                  <span>D'DECOR INDIA • SECTOR 84 GURUGRAM</span>
                 </div>
+                <div className="text-xs text-stone-500 font-serif italic mt-1">Curtains • Window Blinds • Luxury Wallpaper</div>
               </div>
 
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-light text-[#1C1C1C] leading-[1.1]">

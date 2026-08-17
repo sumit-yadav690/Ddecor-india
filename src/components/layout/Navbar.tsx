@@ -102,22 +102,14 @@ export const Navbar: React.FC<NavbarProps> = ({ currentPath, onNavigate }) => {
           <a
             href="/"
             onClick={(e) => handleLinkClick(e, '/')}
-            className="flex items-center gap-3 group cursor-pointer"
-            aria-label="Ddecor Curtain Shop Decor India Home"
+            className="flex flex-col group cursor-pointer py-1"
+            aria-label="D'DECOR Curtain Shop Decor India Home"
           >
-            <img
-              src="/logo.jpg"
-              alt="Ddecor Curtain Shop Decor India Logo"
-              className="h-12 sm:h-14 w-auto object-contain bg-white p-0.5 border border-[#E5E1DA] shadow-2xs group-hover:border-[#8B735B] transition"
-              referrerPolicy="no-referrer"
-            />
-            <div className="flex flex-col">
-              <div className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-[#1C1C1C] leading-none uppercase">
-                Ddecor <span className="font-light italic text-[#8B735B]">India</span>
-              </div>
-              <div className="text-[9px] sm:text-[10px] tracking-[0.22em] text-[#8B735B] uppercase font-semibold mt-1">
-                Curtain &amp; Decor Studio • Sector 84
-              </div>
+            <div className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-[#1C1C1C] leading-none uppercase group-hover:text-[#8B735B] transition-colors">
+              D'DECOR <span className="font-light italic text-[#8B735B]">India</span>
+            </div>
+            <div className="text-[9px] sm:text-[10px] tracking-[0.24em] text-[#8B735B] uppercase font-semibold mt-1.5">
+              Curtain &amp; Decor Studio • Sector 84
             </div>
           </a>
 

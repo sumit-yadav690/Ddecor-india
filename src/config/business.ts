@@ -1,9 +1,9 @@
 import { FAQItem, GalleryProject, ReviewItem, ServiceItem } from '../types';
 
 export const BUSINESS_CONFIG = {
-  name: 'Ddecor Curtain Shop Decor India',
-  shortName: 'Ddecor Curtain Shop',
-  tagline: 'Custom Curtains, Window Blinds & Designer Wallpaper in Gurgaon',
+  name: "D'DECOR Curtain Shop Decor India",
+  shortName: "D'DECOR Curtain Shop",
+  tagline: "Custom Curtains, Window Blinds & Designer Wallpaper in Gurgaon",
   
   // Exact Physical Location
   address: {
@@ -32,8 +32,8 @@ export const BUSINESS_CONFIG = {
   // Google Business Profile Real Statistics
   rating: 4.9,
   reviewsCount: 30,
-  googleMapsUrl: 'https://maps.google.com/?q=Ddecor+Curtain+Shop+Decor+India+Sector+84+Gurugram+Haryana+122012',
-  googleReviewsUrl: 'https://maps.google.com/?q=Ddecor+Curtain+Shop+Decor+India+Sector+84+Gurugram+Haryana+122012',
+  googleMapsUrl: "https://maps.google.com/?q=D'DECOR+Curtain+Shop+Decor+India+Sector+84+Gurugram+Haryana+122012",
+  googleReviewsUrl: "https://maps.google.com/?q=D'DECOR+Curtain+Shop+Decor+India+Sector+84+Gurugram+Haryana+122012",
 
   // Business Hours
   hours: {
@@ -96,7 +96,7 @@ export const BUSINESS_CONFIG = {
 // WhatsApp link generator with contextual intent
 export function getWhatsAppLink(customMessage?: string, service?: string): string {
   const base = `https://wa.me/${BUSINESS_CONFIG.whatsappNumber}`;
-  const defaultText = `Hi Ddecor Curtain Shop, I am interested in ${service || 'Curtains/Blinds/Wallpaper'} in Gurgaon. Please share catalogs and quotation.`;
+  const defaultText = `Hi D'DECOR Curtain Shop, I am interested in ${service || 'Curtains/Blinds/Wallpaper'} in Gurgaon. Please share catalogs and quotation.`;
   const text = encodeURIComponent(customMessage || defaultText);
   return `${base}?text=${text}`;
 }

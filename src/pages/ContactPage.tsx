@@ -46,19 +46,11 @@ export const ContactPage: React.FC = () => {
             {/* Contact Details Column */}
             <div className="lg:col-span-5 space-y-6">
               <div className="bg-white p-6 sm:p-8 border border-[#E5E1DA] shadow-2xs space-y-6">
-                <div className="flex items-center gap-4 pb-4 border-b border-[#E5E1DA]">
-                  <img
-                    src="/logo.jpg"
-                    alt="Ddecor Curtain Shop Decor India Official Brand Emblem"
-                    className="h-16 w-auto object-contain bg-white p-1 border border-[#E5E1DA]"
-                    referrerPolicy="no-referrer"
-                  />
-                  <div>
-                    <h2 className="text-xl font-serif font-semibold text-[#1C1C1C] leading-tight">
-                      {BUSINESS_CONFIG.name}
-                    </h2>
-                    <p className="text-[10px] text-stone-500 uppercase tracking-wider mt-1">Curtains • Blinds • Wallpaper</p>
-                  </div>
+                <div className="pb-4 border-b border-[#E5E1DA]">
+                  <h2 className="text-2xl font-serif font-bold text-[#1C1C1C] uppercase leading-tight">
+                    D'DECOR <span className="font-light italic text-[#8B735B]">India</span>
+                  </h2>
+                  <p className="text-[10px] text-stone-500 uppercase tracking-widest mt-1">Curtains • Blinds • Wallpaper • Sector 84 Gurugram</p>
                 </div>
 
                 <div className="space-y-4 text-sm text-stone-700">

@@ -37,7 +37,7 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
               <span>LOCAL EXCELLENCE IN GURUGRAM</span>
             </div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-serif font-light text-[#1C1C1C] leading-[1.1] mb-4">
-              About Ddecor Curtain Shop <br className="hidden sm:inline" />
+              About D'DECOR Curtain Shop <br className="hidden sm:inline" />
               <span className="italic font-normal">Decor India</span>
             </h1>
             <p className="text-sm sm:text-base text-stone-600 leading-relaxed font-normal">
@@ -92,13 +92,13 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
 
             <div className="lg:col-span-6">
               <div className="bg-[#FAF9F6] p-6 sm:p-8 border border-[#E5E1DA] shadow-2xs space-y-6">
-                <div className="flex items-center justify-center p-4 bg-white border border-[#E5E1DA]">
-                  <img
-                    src="/logo.jpg"
-                    alt="Ddecor Curtain Shop Decor India Official Brand Emblem"
-                    className="max-h-36 w-auto object-contain"
-                    referrerPolicy="no-referrer"
-                  />
+                <div className="flex flex-col items-center justify-center p-6 bg-white border border-[#E5E1DA] text-center">
+                  <h3 className="font-serif text-3xl font-bold uppercase tracking-tight text-[#1C1C1C]">
+                    D'DECOR <span className="font-light italic text-[#8B735B]">India</span>
+                  </h3>
+                  <p className="text-xs text-[#8B735B] font-semibold tracking-[0.24em] uppercase mt-2">
+                    Sector 84, Gurugram • Est. 2018
+                  </p>
                 </div>
 
                 <GoogleReviewsBadge variant="card" />
